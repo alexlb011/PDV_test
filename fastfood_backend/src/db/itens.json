@@ -1,0 +1,195 @@
+[
+    {
+        "nome": "Hamburguer Clássico",
+        "descricao": "Um hambúrguer suculento com queijo e molho especial.",
+        "valor": 15.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Bacon",
+                "valor": 2.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Tomate",
+                "valor": 2.5,
+                "weight": 20
+            },
+            {
+                "nome": "Queijo",
+                "valor": 10.0,
+                "weight": 200.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer Vegano",
+        "descricao": "Um hambúrguer de origem vegetal com molho especial.",
+        "valor": 12.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Alface",
+                "valor": 1.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Cebola",
+                "valor": 1.5,
+                "weight": 20
+            },
+            {
+                "nome": "Maionese Vegana",
+                "valor": 2.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer Duplo",
+        "descricao": "Dois hambúrgueres suculentos com queijo duplo e molho especial.",
+        "valor": 18.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Bacon",
+                "valor": 2.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Alface",
+                "valor": 1.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Cebola",
+                "valor": 1.5,
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer de Frango",
+        "descricao": "Um hambúrguer de frango grelhado com alface e tomate.",
+        "valor": 14.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Queijo",
+                "valor": 10.0,
+                "weight": 200.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer Picante",
+        "descricao": "Um hambúrguer picante com jalapeños e molho apimentado.",
+        "valor": 16.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Bacon",
+                "valor": 2.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Pimentão",
+                "valor": 2.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer de Peixe",
+        "descricao": "Um hambúrguer de peixe empanado com alface e molho tártaro.",
+        "valor": 13.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Queijo",
+                "valor": 10.0,
+                "weight": 200.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer de Cordeiro",
+        "descricao": "Um hambúrguer de cordeiro temperado com hortelã e iogurte.",
+        "valor": 17.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Cebola Roxa",
+                "valor": 2.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer de Frutos do Mar",
+        "descricao": "Um hambúrguer de frutos do mar com camarões e molho de limão.",
+        "valor": 19.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Abacate",
+                "valor": 3.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer com Ovo",
+        "descricao": "Um hambúrguer com ovo frito, bacon e queijo cheddar.",
+        "valor": 16.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Bacon",
+                "valor": 2.5,
+                "weight": 10.0
+            },
+            {
+                "nome": "Queijo Cheddar",
+                "valor": 3.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer Vegetariano",
+        "descricao": "Um hambúrguer vegetariano com cogumelos e queijo suíço.",
+        "valor": 14.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Cogumelos",
+                "valor": 2.0,
+                "weight": 20.0
+            },
+            {
+                "nome": "Queijo Suíço",
+                "valor": 3.0,
+                "weight": 20.0
+            }
+        ]
+    },
+    {
+        "nome": "Hamburguer de Peru",
+        "descricao": "Um hambúrguer de peru com abacate e molho de mostarda.",
+        "valor": 15.99,
+        "imagem": "baseImg.jpg",
+        "adicionais": [
+            {
+                "nome": "Abacate",
+                "valor": 3.0,
+                "weight": 20.0
+            },
+            {
+                "nome": "Mostarda",
+                "valor": 2.0,
+                "weight": 20.0
+            }
+        ]
+    }
+]

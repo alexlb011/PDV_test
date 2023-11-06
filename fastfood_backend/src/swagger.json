@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "FastFood API",
+    "description": "API basica para ser consumida por front-end de FastFood/PDVs"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/",
+      "description": "API de teste"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Obtém o catalogo base",
+        "description": "Retorna um JSON de exemplo da API.",
+        "tags": ["Rotas basicas"],
+        "responses": {}
+      }
+    },
+    "/pay": {
+      "post": {
+        "summary": "recebe o pagamento e valida o metodo",
+        "description": "Retorna um JSON de exemplo da API.",
+        "tags": ["Rotas basicas"],
+        "requestBody": {
+          "description": "Dados de entrada"
+        },
+        "responses": {
+          "200": {},
+          "400": {}
+        }
+      }
+    },
+    "/imagens/{nomeDoArquivo}": {
+      "get": {
+        "summary": "Acessar imagem estática",
+        "description": "Esta rota permite aos usuários acessarem imagens estáticas. Substitua {nomeDoArquivo} pelo nome do arquivo da imagem desejada na URL.",
+        "tags": ["Rotas estáticas"],
+        "parameters": [
+          {
+            "name": "nomeDoArquivo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
